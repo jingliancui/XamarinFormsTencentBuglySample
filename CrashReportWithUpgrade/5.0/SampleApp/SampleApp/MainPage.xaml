@@ -13,12 +13,14 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"></RowDefinition>
                 <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="auto"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Button Clicked="FormsCrashBtn_Clicked" Grid.Column="0" Grid.Row="0" Text="FormsCrash" x:Name="FormsCrashBtn"></Button>
-            <Button Clicked="PlatformCrashBtn_Clicked" Grid.Column="0" Grid.Row="1" Text="PlatformCrash" x:Name="PlatformCrashBtn"></Button>
+            <Label Grid.Column="0" Grid.Row="0" Text="当前版本1.0"></Label>
+            <Button Clicked="FormsCrashBtn_Clicked" Grid.Column="0" Grid.Row="1" Text="FormsCrash" x:Name="FormsCrashBtn"></Button>
+            <Button Clicked="PlatformCrashBtn_Clicked" Grid.Column="0" Grid.Row="2" Text="PlatformCrash" x:Name="PlatformCrashBtn"></Button>
         </Grid>
     </StackLayout>
 </ContentPage>
